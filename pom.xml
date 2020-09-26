@@ -31,11 +31,8 @@
 		<!-- Bring in embedded messaging server -->
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
-			<artifactId>artemis-server</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.activemq</groupId>
 			<artifactId>artemis-jms-server</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 		<!-- /Bring in embedded messaging server -->
 
